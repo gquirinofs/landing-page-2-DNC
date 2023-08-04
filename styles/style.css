@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    margin-left: 15px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CABEÇALHO */
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-port{
+    font-size: 28px;
+    color: #070f18;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-a{
+    font-size: 16px;
+    color: #070f18;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav-a:hover{
+    text-decoration-line: underline;
+}
+
+/* MENU SUPERIOR */
+
+#menu-sup{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 255px;
+}
+
+#menu-sup-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#presentation{
+    font-size: 55px;
+    font-weight: 700;
+    color: #000;
+    line-height: normal;
+}
+
+#texto-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+    font-style: normal;
+}
+
+.services-btt{
+    background: #1f7cff;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+}
+
+.services-btt:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 3px 4px 0px #070f18;
+    transition-duration: 500ms;
+}
+
+#foto-maria{
+    height: 370px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+/* MENU - CLIENTES */
+
+#menu-clientes{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 200px;
+    align-items: center;
+}
+
+#pclientes{
+    font-size: 16px;
+    font-weight: 600;
+    color: #070f18;
+    padding-left: 10px;
+}
+
+.icons-c{
+    height: 28px;
+}
+
+.icons-c:hover{
+    transform: scale(1.4);
+    transition: 400ms
+}
+
+/* MENU - SERVIÇOS */
+
+#menu-serv{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-pRed{
+    color: #f75c4e;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#title-serv{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
+
+#text-descServ{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575455;
+}
+
+/* MENU - SEVIÇOS - CONTEÚDO */
+
+#menu-serv-icons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-services{
+    font-size: 20px;
+    font-weight: 600;
+    color: #070f18;
+    line-height: normal;
+    line-height: 32px;
+}
+
+.desc-services{
+    font-size: 16px;
+    font-style: normal;
+    color: #575455;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.iconserv{
+    height: 60px;
+}
+
+/* MENU - INFERIOR - FORMULÁRIO */
+
+#menu-inf{
+    margin-top: 85px;
+    margin-left: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: space-around;
+}
+
+#text-inf{
+    text-align:start;
+    line-height: 32px;
+    
+}
+
+#tdinheiro{
+    font-size: 36px;
+    color: #000;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+#tdesc{
+    font-size: 16px;
+    color: #575455;
+    font-weight: 400;
+}
+
+#e-mail{
+    border: none;
+    margin-top: 40px;
+    margin-left: 0px;
+    border-radius: 50px;
+    height: 48px;
+    width: 385px;
+    background: #f5f6fb;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+}
+
+#submit{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+#form-img{
+    height: 400px;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+/* RODAPÉ */
+
+#port-footer{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 65px;
+    margin-top: 12px;
+}
+
+footer{
+    margin-top: 165px;
+}
+
+#img-div-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+#text-footer{
+    margin-left: 20px ;
+}
+
+.footer-img{
+    height: 225px;
+    padding-left: 5px;
+    margin-bottom: 300px;
+}
+
+.footer-img:hover{
+    transform: scale(1.4);
+    transition: 400ms;
+    cursor: pointer;
+}
